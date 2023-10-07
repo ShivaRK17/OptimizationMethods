@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  background-color: #e8effc;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(101, 99, 99);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Navbar */
+nav{
+  background-color: rgb(50, 45, 45) !important;
+}
+
+/* Home */
+#homecont{
+  background-color:white;
+  width: 100vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#algocont{
+  background-color:white;
+  width: 100vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* List */
+#listcont{
+  background-color:white;
+  width: 100vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#listcont ul li{
+  font-size: 1.1rem;
+}
