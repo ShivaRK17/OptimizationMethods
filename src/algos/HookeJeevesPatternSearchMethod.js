@@ -112,7 +112,8 @@ const HookeJeevesPatternSearchMethod = () => {
 
     } catch (error) {
       console.log(error);
-      toast("Error in Evaluating Minima")
+      toast("Still Under Construction")
+      // toast("Error in Evaluating Minima")
     }
   }
 
