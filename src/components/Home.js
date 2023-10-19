@@ -52,14 +52,14 @@ const Home = () => {
             <div className="container">
                 <h3 className='m-2'><label htmlFor="SinMul">Select Optimisation</label></h3>
                 <select className="form-select m-2" value={opt} onChange={(e) => { setopt(e.target.value); setcurropt(optmethdict[e.target.value]) }} aria-label="Default select example">
-                    <option className='p-4' value="sing" selected>Single Variable Optimisation</option>
+                    <option className='p-4' value="sing">Single Variable Optimisation</option>
                     <option className='p-4' value="mult">Multi Variable Optimisation</option>
                 </select>
                 <h3 className='m-2 mt-4'><label htmlFor="SinMul">Select Method</label></h3>
                 <select className="form-select m-2" value={curropt} onChange={(e) => { setcurropt(e.target.value) }} aria-label="Default select example">
                     {opt === "sing" ?
                         <>
-                            <option value="s1" selected>Exhaustive Search Method</option>
+                            <option value="s1">Exhaustive Search Method</option>
                             <option value="s2">Bounding Phase Method</option>
                             <option value="s3">Interval Halving Method</option>
                             <option value="s4">Fibonacci Search Method</option>
