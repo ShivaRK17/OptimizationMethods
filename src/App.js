@@ -13,9 +13,9 @@ const App = () => {
     <ToastContainer/>
     <Navbar/>
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/list' element={<ListAlgos/>}/>
-      <Route path='/graph' element={<Graph/>}/>
+      <Route path='/OptimizationMethods' element={<Home/>}/>
+      <Route path='/OptimizationMethods/list' element={<ListAlgos/>}/>
+      <Route path='/OptimizationMethods/graph' element={<Graph/>}/>
     </Routes>
     </>
   )
