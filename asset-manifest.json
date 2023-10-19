@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OptimizationMethods/static/css/main.2c7dccad.css",
+    "main.js": "/OptimizationMethods/static/js/main.775644dd.js",
+    "index.html": "/OptimizationMethods/index.html",
+    "main.2c7dccad.css.map": "/OptimizationMethods/static/css/main.2c7dccad.css.map",
+    "main.775644dd.js.map": "/OptimizationMethods/static/js/main.775644dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c7dccad.css",
+    "static/js/main.775644dd.js"
+  ]
+}
